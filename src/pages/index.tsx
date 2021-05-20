@@ -49,9 +49,19 @@ const getIntroText = (lang: string) => {
           >
             ¡Nos Casamos!
           </Text>
-          <Text as="p">
-            Bienvenidos a la web de nuestra boda, estamos encantados de que
-            estéis aquí.
+          <Text as="p" fontWeight="bold">
+            A medida que vayan surgiendo nuevas noticias en relación con las
+            restricciones motivadas por la situación actual, iremos modificando
+            la web con todos los detalles. Si teneis cualquier pregunta o duda
+            sobre vuestra estancia en Italia, la mejor opción es contactar con
+            nosotros.
+            <br />
+            Puedes encontrar todas las condiciones y restricciones de viaje en
+            &nbsp;
+            <a href="https://www.salute.gov.it/travellers">
+              la web del Ministerio de Sanidad italiano
+            </a>
+            .
           </Text>
           <Text as="p">
             Hemos creado esta web como un sitio donde compartir los detalles más
@@ -92,9 +102,11 @@ const getIntroText = (lang: string) => {
           >
             Ci sposiamo!
           </Text>
-          <Text as="p">
-            Siamo lieti di avervi con noi durante il giorno del nostro
-            matrimonio.
+          <Text as="p" fontWeight="bold">
+            Questa pagina sarà constantemente aggiornata man mano che saranno
+            rilasciati nuovi dettagli sulle restrizioni e norme vigenti relative
+            alla situazione attuale. Per qualsiasi domanda sull'organizzazione e
+            preparativi, potete sempre rivolgervi direttamente a noi.
           </Text>
           <Text as="p">
             Verona occupa un posto molto speciale nei nostri cuori, poiché è
@@ -128,8 +140,17 @@ const getIntroText = (lang: string) => {
           >
             We're getting married!
           </Text>
-          <Text as="p">
-            Welcome to our wedding website, we’re so glad you’re here.
+          <Text as="p" fontWeight="bold">
+            We will keep this website up-to-date with all the organizational
+            details according to the latests news about the restrictions in
+            Italy. If you have any questions or doubts about your stay in Italy,
+            feel free to get in contact directly with us.
+            <br />
+            Restrictions and travel conditions can be found on the&nbsp;
+            <a href="https://www.salute.gov.it/travellers">
+              website of the Italian Ministry of Health
+            </a>
+            .
           </Text>
           <Text as="p">
             We’ve created this website as a convenient way to share all of the
