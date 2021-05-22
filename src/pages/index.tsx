@@ -36,19 +36,19 @@ const getIntroText = (lang: string) => {
       return (
         <Fragment>
           <Text
-            fontSize={["4rem", "6rem", "6rem"]}
-            fontFamily="Opulent Brush !important"
+            fontSize={["2rem", "3rem", "3rem"]}
+            fontFamily="Yeseva One !important"
             lineHeight="1"
           >
             20.08.2021
           </Text>
           <Text
-            fontSize={["5rem", "8rem", "8rem"]}
-            fontFamily="Opulent Brush !important"
-            lineHeight="1.5"
+            fontSize={["3rem", "4rem", "4rem"]}
+            fontFamily="Yeseva One !important"
           >
             ¡Nos Casamos!
           </Text>
+          <Text as="p">&nbsp;</Text>
           <Text as="p" fontWeight="bold">
             A medida que vayan surgiendo nuevas noticias en relación con las
             restricciones motivadas por la situación actual, iremos modificando
@@ -78,8 +78,8 @@ const getIntroText = (lang: string) => {
             favorita. Gracias de corazón por vuestro amor y vuestro apoyo.
           </Text>
           <Text
-            fontSize="4rem"
-            fontFamily="Opulent Brush !important"
+            fontSize="2rem"
+            fontFamily="Yeseva One !important"
             lineHeight="1.5"
           >
             Adrián & Elena
@@ -90,18 +90,19 @@ const getIntroText = (lang: string) => {
       return (
         <Fragment>
           <Text
-            fontSize={["4rem", "6rem", "6rem"]}
-            fontFamily="Opulent Brush !important"
+            fontSize={["2rem", "3rem", "3rem"]}
+            fontFamily="Yeseva One !important"
             lineHeight="1"
           >
             20.08.2021
           </Text>
           <Text
-            fontSize={["5rem", "8rem", "8rem"]}
-            fontFamily="Opulent Brush !important"
+            fontSize={["3rem", "4rem", "4rem"]}
+            fontFamily="Yeseva One !important"
           >
             Ci sposiamo!
           </Text>
+          <Text as="p">&nbsp;</Text>
           <Text as="p" fontWeight="bold">
             Questa pagina sarà constantemente aggiornata man mano che saranno
             rilasciati nuovi dettagli sulle restrizioni e norme vigenti relative
@@ -118,7 +119,7 @@ const getIntroText = (lang: string) => {
             dettagli che vi possano tornare utili riguardo al programma,
             l'organizzazione e l'arrivo in Villa.
           </Text>
-          <Text fontSize="4rem" fontFamily="Opulent Brush !important">
+          <Text fontSize="2rem" fontFamily="Yeseva One !important">
             Adrián & Elena
           </Text>
         </Fragment>
@@ -128,18 +129,19 @@ const getIntroText = (lang: string) => {
       return (
         <Fragment>
           <Text
-            fontSize={["4rem", "6rem", "6rem"]}
-            fontFamily="Opulent Brush !important"
+            fontSize={["2rem", "3rem", "3rem"]}
+            fontFamily="Yeseva One !important"
             lineHeight="1"
           >
             20.08.2021
           </Text>
           <Text
-            fontSize={["5rem", "6rem", "6rem"]}
-            fontFamily="Opulent Brush !important"
+            fontSize={["3rem", "3rem", "3rem"]}
+            fontFamily="Yeseva One !important"
           >
             We're getting married!
           </Text>
+          <Text as="p">&nbsp;</Text>
           <Text as="p" fontWeight="bold">
             We will keep this website up-to-date with all the organizational
             details according to the latests news about the restrictions in
@@ -166,7 +168,7 @@ const getIntroText = (lang: string) => {
             We are SO incredibly excited to share this special day with our
             favourite people, a big thanks for all of your love and support.
           </Text>
-          <Text fontSize="4rem" fontFamily="Opulent Brush !important">
+          <Text fontSize="2rem" fontFamily="Yeseva One !important">
             Adrián & Elena
           </Text>
         </Fragment>
@@ -181,7 +183,7 @@ const getConfirmationText = (lang: string) => {
         <Fragment>
           <Text
             fontSize="6rem"
-            fontFamily="Opulent Brush !important"
+            fontFamily="Yeseva One !important"
             lineHeight="1.5"
           >
             Confirmación
@@ -198,7 +200,7 @@ const getConfirmationText = (lang: string) => {
           </Text>
           <Text
             fontSize="4rem"
-            fontFamily="Opulent Brush !important"
+            fontFamily="Yeseva One !important"
             lineHeight="1.5"
           >
             Adrián & Elena
@@ -210,7 +212,7 @@ const getConfirmationText = (lang: string) => {
         <Fragment>
           <Text
             fontSize="6rem"
-            fontFamily="Opulent Brush !important"
+            fontFamily="Yeseva One !important"
             lineHeight="1.5"
           >
             RSVP
@@ -228,7 +230,7 @@ const getConfirmationText = (lang: string) => {
           </Text>
           <Text
             fontSize="4rem"
-            fontFamily="Opulent Brush !important"
+            fontFamily="Yeseva One !important"
             lineHeight="1.5"
           >
             Adrián & Elena
@@ -241,7 +243,7 @@ const getConfirmationText = (lang: string) => {
         <Fragment>
           <Text
             fontSize="6rem"
-            fontFamily="Opulent Brush !important"
+            fontFamily="Yeseva One !important"
             lineHeight="1.5"
           >
             Confirmation / RSVP
@@ -259,7 +261,7 @@ const getConfirmationText = (lang: string) => {
           </Text>
           <Text
             fontSize="4rem"
-            fontFamily="Opulent Brush !important"
+            fontFamily="Yeseva One !important"
             lineHeight="1.5"
           >
             Adrián & Elena

@@ -115,7 +115,6 @@ export const Header: FunctionComponent = () => {
               </MenuLink>
             ))}
           </Box>
-          <LanguageSelector />
         </BurgerMenu>
       </Box>
       <LayoutContent>
@@ -127,9 +126,9 @@ export const Header: FunctionComponent = () => {
                   <FormattedMessage id={item.title} />
                 </MenuLink>
               ))}
-              <LanguageSelector />
             </Menu>
           </Box>
+          <LanguageSelector />
         </StyledNav>
       </LayoutContent>
     </HeaderContainer>

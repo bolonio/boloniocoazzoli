@@ -41,8 +41,8 @@ const getConfirmationText = (lang: string) => {
           <Text
             as="h1"
             fontWeight="300"
-            fontSize={["5rem", "8rem", "8rem"]}
-            fontFamily="Opulent Brush !important"
+            fontSize={["3rem", "4rem", "4rem"]}
+            fontFamily="Yeseva One !important"
             lineHeight="1"
           >
             Confirmación
@@ -57,8 +57,8 @@ const getConfirmationText = (lang: string) => {
             colaborar en nuestra luna de miel.
           </Text>
           <Text
-            fontSize="4rem"
-            fontFamily="Opulent Brush !important"
+            fontSize="2rem"
+            fontFamily="Yeseva One !important"
             lineHeight="1.5"
           >
             Adrián & Elena
@@ -71,8 +71,8 @@ const getConfirmationText = (lang: string) => {
           <Text
             as="h1"
             fontWeight="300"
-            fontSize={["5rem", "8rem", "8rem"]}
-            fontFamily="Opulent Brush !important"
+            fontSize={["3rem", "4rem", "4rem"]}
+            fontFamily="Yeseva One !important"
             lineHeight="1"
           >
             RSVP
@@ -89,8 +89,8 @@ const getConfirmationText = (lang: string) => {
             viaggio di nozze.
           </Text>
           <Text
-            fontSize="4rem"
-            fontFamily="Opulent Brush !important"
+            fontSize="2rem"
+            fontFamily="Yeseva One !important"
             lineHeight="1.5"
           >
             Adrián & Elena
@@ -104,8 +104,8 @@ const getConfirmationText = (lang: string) => {
           <Text
             as="h1"
             fontWeight="300"
-            fontSize={["5rem", "8rem", "8rem"]}
-            fontFamily="Opulent Brush !important"
+            fontSize={["3rem", "4rem", "4rem"]}
+            fontFamily="Yeseva One !important"
             lineHeight="1"
           >
             Confirmation / RSVP
@@ -122,8 +122,8 @@ const getConfirmationText = (lang: string) => {
             contribute to our honeymoon trip after tying the knot.
           </Text>
           <Text
-            fontSize="4rem"
-            fontFamily="Opulent Brush !important"
+            fontSize="2rem"
+            fontFamily="Yeseva One !important"
             lineHeight="1.5"
           >
             Adrián & Elena

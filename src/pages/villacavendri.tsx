@@ -112,8 +112,8 @@ const Talks: FunctionComponent<PageRendererProps> = ({ location }) => {
           <Text
             as="h1"
             fontWeight="300"
-            fontSize={["5rem", "8rem", "8rem"]}
-            fontFamily="Opulent Brush !important"
+            fontSize={["3rem", "4rem", "4rem"]}
+            fontFamily="Yeseva One !important"
             lineHeight="1"
           >
             Villa Ca' Vendri

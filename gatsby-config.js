@@ -242,16 +242,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: ["Mulish:300,400,500,600,700,800,900"],
-      },
-    },
-    {
-      resolve: "gatsby-plugin-web-font-loader",
-      options: {
-        google: {
-          families: ["Opulent Brush Alt", "Opulent Brush"],
-          urls: ["styles/fonts/fonts.css"],
-        },
+        fonts: ["Mulish:300,400,500,600,700,800,900", "Yeseva One:300,400,600"],
       },
     },
   ],
