@@ -104,7 +104,7 @@ const getIntroText = (lang: string) => {
           </Text>
           <Text as="p">&nbsp;</Text>
           <Text as="p" fontWeight="bold">
-            Questa pagina sarà constantemente aggiornata man mano che saranno
+            Questa pagina sarà costantemente aggiornata man mano che saranno
             rilasciati nuovi dettagli sulle restrizioni e norme vigenti relative
             alla situazione attuale. Per qualsiasi domanda sull'organizzazione e
             preparativi, potete sempre rivolgervi direttamente a noi.
