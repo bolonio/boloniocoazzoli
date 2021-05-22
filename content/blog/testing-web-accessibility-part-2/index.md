@@ -44,7 +44,7 @@ $ npm install -g axe-cli
 You can now run the axe command in your terminal, followed by the URL of the page you wish to test. Here it is a quick example:
 
 ```bash
-$ axe http://www.adrianbolonio.com
+$ axe http://www.boloniocoazzoli.com
 ```
 
 Similar to what I told you in the first part of the series with react-axe, each violation includes the description of the issue, the HTML element in where the violation was found, and a link to the [dequeuniversity](https://dequeuniversity.com/), a full documentation source with detailed information about the issue, and the steps to solve it.
@@ -55,13 +55,13 @@ Several ocurrences of the same violation are grouped.
 You can use the `--rules` flag to set which rules you wish to run, or you can use `--tags` to tell axe to run all rules that have that specific tag. For example:
 
 ```bash
-$ axe http://www.adrianbolonio.com --rules color-contrast,html-has-lang
+$ axe http://www.boloniocoazzoli.com --rules color-contrast,html-has-lang
 ```
 
 Or, to run all wcag2a rules:
 
 ```bash
-$ axe http://www.adrianbolonio.com --tags wcag2a
+$ axe http://www.boloniocoazzoli.com --tags wcag2a
 ```
 
 Results can be saved as JSON data, using the `--save` and `--dir` flags. By passing a filename to --save you indicate how the file should be called. If no filename is passed, a default will be used.
@@ -83,7 +83,7 @@ $ npm install -g pa11y
 You can now run the pa11y command in your terminal, followed by the URL of the page you wish to test. Here it is a quick example:
 
 ```bash
-$ pa11y http://www.adrianbolonio.com
+$ pa11y http://www.boloniocoazzoli.com
 ```
 
 ![A slide of a presentation on how to use the tool pa11y](../../assets/blog/pa11y.jpeg)
@@ -116,7 +116,7 @@ Adding the `--view` flags will immediately open the generated html report.
 Here it is a quick example:
 
 ```bash
-$ lighthouse http://www.adrianbolonio.com --view
+$ lighthouse http://www.boloniocoazzoli.com --view
 ```
 
 ![A slide of a presentation on how to use the tool lighthouse](../../assets/blog/lighthouse.jpeg)
@@ -124,7 +124,7 @@ $ lighthouse http://www.adrianbolonio.com --view
 You can use the `--output-path` flag to specify an output path to save the results into a json or a CSV file, that can be use for reporting purposes.
 
 ```bash
-$ lighthouse http://adrianbolonio.com/ --output-path result.json
+$ lighthouse http://boloniocoazzoli.com/ --output-path result.json
 ```
 
 In the next post I will show you some of the manual testing tools to test web accessibility from the browser.

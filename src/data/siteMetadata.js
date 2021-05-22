@@ -1,13 +1,13 @@
 module.exports = {
-  title: `Adrián Bolonio & Elena Coazzoli - 20.08.2021 - Villa Ca' Vendri (Verona, Italy)`,
+  title: `Adrián Bolonio & Elena Coazzoli - 20.08.2021 - Villa Ca' Vendri (Verona, Italia)`,
   author: `Adrián Bolonio & Elena Coazzoli`,
   bio: `Hi, my name is Adrián Bolonio. I’m an Engineering Team Lead, Frontend Developer, and Web Accessibility (a11y) advocate. I'm from Spain, but since 2012 I've been living and working in Vienna (Austria). When I’m not at the office I enjoy a good read, working my way through any delicious recipe, and indulging my love for travelling to new places.`,
-  description: `Adrián Bolonio & Elena Coazzoli - 20.08.2021 - Villa Ca' Vendri (Verona, Italy)`,
-  siteUrl: `https://www.adrianbolonio.com`,
+  description: `Adrián Bolonio & Elena Coazzoli - 20.08.2021 - Villa Ca' Vendri (Verona, Italia)`,
+  siteUrl: `https://www.boloniocoazzoli.com`,
   email: "bolonio85@gmail.com",
   language: "en",
   twitterUser: "@bolonio",
-  image: "/images/adrianbolonio.jpg",
+  image: "/images/nosotros.jpg",
   social: {
     twitter: `https://www.twitter.com/bolonio`,
     github: `https://www.github.com/bolonio`,

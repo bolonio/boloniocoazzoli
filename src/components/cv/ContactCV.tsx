@@ -28,8 +28,8 @@ export const ContactCV: FunctionComponent = () => {
     {
       icon: WebIcon,
       name: "Web",
-      title: "www.adrianbolonio.com",
-      url: "https://www.adrianbolonio.com/",
+      title: "www.boloniocoazzoli.com",
+      url: "https://www.boloniocoazzoli.com/",
     },
     {
       icon: EmailIcon,

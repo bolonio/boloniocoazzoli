@@ -139,11 +139,11 @@ $ npm install lighthouse -g
 Después de instalarlas en tu máquina, puedes ejecutarlas en la terminal con a URL del sitio web que quieras testear.
 
 ```bash
-$ axe http://www.adrianbolonio.com
+$ axe http://www.boloniocoazzoli.com
 
-$ pa11y http://www.adrianbolonio.com
+$ pa11y http://www.boloniocoazzoli.com
 
-$ lighthouse http://www.adrianbolonio.com
+$ lighthouse http://www.boloniocoazzoli.com
 ```
 
 Son my parecidas entre ellas, así que mi recomendación es que juegues con todas, y que uses las que mejor te convenga en cada momento, incluso puedes usar las tres juntas.

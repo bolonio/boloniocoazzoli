@@ -1,6 +1,4 @@
-# adrianbolonio.com
-
-Hi, my name is Adrián Bolonio. I’m an experienced Team Lead, Frontend Developer, and Web Accessibility (a11y) advocate. I'm from Spain, but since 2012 I've been living and working in Vienna (Austria). When I’m not at the office I enjoy a good read, working my way through any delicious recipe, and indulging my love for travelling to new places.
+# boloniocoazzoli.com
 
 ## Running it locally
 
@@ -25,4 +23,4 @@ If you have any suggestion for how this project could be improved, please read t
 
 ## Author
 
-http://adrianbolonio.com/ is my personal website and is created by [Adrián Bolonio](https://twitter.com/bolonio).
+http://boloniocoazzoli.com/ is a personal website and is created by [Adrián Bolonio](https://twitter.com/bolonio).
