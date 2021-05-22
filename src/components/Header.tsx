@@ -106,7 +106,7 @@ export const Header: FunctionComponent = () => {
   const intl = useIntl()
   return (
     <HeaderContainer>
-      <Box display={["none", "none", "none"]}>
+      <Box display={["block", "none", "none"]}>
         <BurgerMenu styles={styles}>
           <Box display="flex" flexDirection="column">
             {navigation.map(item => (
@@ -120,7 +120,7 @@ export const Header: FunctionComponent = () => {
       </Box>
       <LayoutContent>
         <StyledNav>
-          <Box display={["block", "block", "block"]}>
+          <Box display={["none", "block", "block"]}>
             <Menu>
               {navigation.map(item => (
                 <MenuLink key={item.slug} to={`/${intl.locale}/${item.slug}`}>
