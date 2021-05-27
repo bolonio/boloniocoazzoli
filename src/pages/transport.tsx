@@ -265,6 +265,74 @@ const getArriveMilano = (lang: string) => {
   }
 }
 
+const getArriveVenezia = (lang: string) => {
+  switch (lang) {
+    case "es":
+      return (
+        <Fragment>
+          <Text as="h3">Desde el aeropuerto de Venecia</Text>
+          <Text as="p">Aeropuerto Marco Polo</Text>
+          <Text as="p">
+            La mejor forma para llegar a Verona desde el aeropuerto de Venecia
+            es cogiendo un tren desde la estación de Venecia Mestre.
+          </Text>
+          <Text as="p">
+            <a
+              href="https://www.veneziaairport.it/en/transport/venezia-mestre-station.html"
+              target="_blank"
+            >
+              Conexiones desde el aeropuerto Marco Polo de Venecia a la estación
+              de tren de Venecia Mestre
+            </a>
+          </Text>
+          <Text as="p">
+            Desde la estación de tren de Venecia Mestre, se puede coger un tren
+            directo a Verona Porta Nuova. El precio del billete cuesta{" "}
+            <b>10,00€</b>. Los billetes pueden comprarse directamente en la web
+            de Trenitalia.
+          </Text>
+          <Text as="p">
+            <a href="https://www.trenitalia.com/" target="_blank">
+              Información Trenitalia
+            </a>
+          </Text>
+        </Fragment>
+      )
+    case "en":
+    default:
+      return (
+        <Fragment>
+          <Text as="h3">From Venice airport</Text>
+          <Text as="p">Airport Marco Polo</Text>
+          <Text as="p">
+            The best way to arrive to Verona from Venice airport is via Venice
+            Mestre train station.
+          </Text>
+          <Text as="p">
+            <a
+              href="https://www.veneziaairport.it/en/transport/venezia-mestre-station.html"
+              target="_blank"
+            >
+              Connections from Venice Marco Polo Airport to Venezia Mestre train
+              station
+            </a>
+          </Text>
+          <Text as="p">
+            Once you arrive to the Venice Mestre train station, you can take a
+            direct train to Verona Porta Nuova. A single train ticket costs{" "}
+            <b>10,00€</b>. Tickets can be purchased directly on the Trenitalia
+            website.
+          </Text>
+          <Text as="p">
+            <a href="https://www.trenitalia.com/en.html" target="_blank">
+              Trenitalia information
+            </a>
+          </Text>
+        </Fragment>
+      )
+  }
+}
+
 const getTitle = (lang: string) => {
   switch (lang) {
     case "es":
@@ -417,6 +485,30 @@ const Talks: FunctionComponent<PageRendererProps> = ({ location }) => {
                 <iframe
                   title="googlemap"
                   src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d34495.80280334495!2d10.917365120774454!3d45.412980199279964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x477f5f3f64bc5d4b%3A0x3b4cc3ee18227c2c!2sValerio%20Catullo%20Airport%2C%2037066%20Caselle%20VR%2C%20Italia!3m2!1d45.4000011!2d10.890140599999999!4m5!1s0x477f5f664a2f09fd%3A0x558f7661f12a33b9!2sVerona%20Porta%20Nuova%2C%20Verona%2C%20VR%2C%20Italia!3m2!1d45.4290221!2d10.982482!5e0!3m2!1sen!2sat!4v1573986450091!5m2!1sen!2sat"
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                ></iframe>
+              </Box>
+            </Box>
+          )}
+
+          {(lang === "es" || lang === "en") && (
+            <Box
+              display="flex"
+              marginBottom="4"
+              paddingBottom="4"
+              minHeight="500px"
+              flexDirection={["column", "column", "row"]}
+              borderBottom="1px solid #23333d"
+            >
+              <Box flex={1} marginRight="4">
+                {getArriveVenezia(lang)}
+              </Box>
+              <Box flex={1}>
+                <iframe
+                  title="googlemap"
+                  src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d716261.3174570402!2d11.10421997980489!3d45.47190349359343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x4779354dc4b50b81%3A0x23f1327198624899!2sVenice%20Marco%20Polo%20Airport%20(VCE)%2C%20Viale%20Galileo%20Galilei%2C%2030%2C%2030173%20Venezia%20VE%2C%20Italy!3m2!1d45.504684399999995!2d12.346629499999999!4m5!1s0x477f5f664a2f09fd%3A0x558f7661f12a33b9!2sVerona%20Porta%20Nuova%2C%20Verona%2C%20VR%2C%20Italy!3m2!1d45.4290202!2d10.9824979!5e0!3m2!1sen!2ses!4v1622128495302!5m2!1sen!2ses"
                   width="100%"
                   height="100%"
                   frameBorder="0"
