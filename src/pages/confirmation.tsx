@@ -54,14 +54,8 @@ const getConfirmationText = (lang: string) => {
           <Text as="p">
             El mejor regalo que nos podéis hacer es el de estar con nosotros en
             nuestro día en Verona, pero si queréis hacernos un regalo, podéis
-            colaborar en nuestra luna de miel.
-          </Text>
-          <Text
-            fontSize="2rem"
-            fontFamily="Yeseva One !important"
-            lineHeight="1.5"
-          >
-            Adrián & Elena
+            colaborar en nuestra luna de miel. Os dejamos nuestros datos
+            bancarios:
           </Text>
         </Fragment>
       )
@@ -86,14 +80,7 @@ const getConfirmationText = (lang: string) => {
             Il più grande regalo che ci possiate fare è quello di essere con noi
             durante questo weekend a Verona. Comunque, se vi facesse piacere
             farci un regalo, potete contribuire alla realizzazione del nostro
-            viaggio di nozze.
-          </Text>
-          <Text
-            fontSize="2rem"
-            fontFamily="Yeseva One !important"
-            lineHeight="1.5"
-          >
-            Adrián & Elena
+            viaggio di nozze. Vi lasciamo i nostri dati bancari:
           </Text>
         </Fragment>
       )
@@ -119,14 +106,8 @@ const getConfirmationText = (lang: string) => {
           <Text as="p">
             The most important gift to us is having you share in our special
             day. But if you wish to collaborate in some other way, you can
-            contribute to our honeymoon trip after tying the knot.
-          </Text>
-          <Text
-            fontSize="2rem"
-            fontFamily="Yeseva One !important"
-            lineHeight="1.5"
-          >
-            Adrián & Elena
+            contribute to our honeymoon trip after tying the knot. We leave here
+            our bank details:
           </Text>
         </Fragment>
       )
@@ -147,6 +128,26 @@ const About: FunctionComponent<PageRendererProps> = ({ location }) => {
           <Shape src={shape} alt="" aria-hidden={true} />
           <Shape2 src={shape} alt="" aria-hidden={true} />
           <Box>{getConfirmationText(lang)}</Box>
+          <Box display="flex" flexDirection="column" marginBottom="4">
+            <Text fontWeight="300" fontSize="1.25rem">
+              Elena Coazzoli
+            </Text>
+            <Text fontWeight="300" fontSize="1.25rem">
+              Swift Code/BIC: GIBAATWWXXX
+            </Text>
+            <Text fontWeight="300" fontSize="1.25rem">
+              IBAN: AT11 2011 1822 5628 3400
+            </Text>
+          </Box>
+          <Box>
+            <Text
+              fontSize="2rem"
+              fontFamily="Yeseva One !important"
+              lineHeight="1.5"
+            >
+              Adrián & Elena
+            </Text>
+          </Box>
         </PageLayoutContent>
       </Box>
     </Layout>
